@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Lingkungan dan rahasia
+.env
+*.env.local
+
+# Basis data lokal (skema ada di database/schema.sql)
+*.sqlite
+*.sqlite3
+*.db
+
+# PHP
+vendor/
+composer.lock
+
+# Node (bila memakai Tailwind CLI)
+node_modules/
+
+# Editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
